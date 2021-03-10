@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+  border-collapse: collapse;
+  padding: 7px;
+  margin: 0 auto;
+}
+
+.modal {
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.modal-box {
+  margin: 0 auto;
+  height: 250px;
+  width: calc(100% - 100px);
+  background: white;
+  border: 2px solid;
+  position: relative;
+  top: 150px;
+}
